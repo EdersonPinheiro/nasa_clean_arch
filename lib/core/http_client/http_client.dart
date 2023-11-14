@@ -6,9 +6,9 @@ abstract class HttpClient {
   Future<HttpResponse> post(String url, {required Map<String, dynamic> body});
 }
 
-class HttpReponse {
+class HttpResponse {
   final dynamic data;
   final int? statusCode;
 
-  HttpReponse({required this.data, required this.statusCode});
+  HttpResponse({required this.data, required this.statusCode});
 }
