@@ -6,6 +6,8 @@ import 'package:nasa_clean_arch/feature/domain/repositories/space_media_reposito
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nasa_clean_arch/feature/domain/usecase/get_space_media_from_data_usecase.dart';
 
+import '../../../mocks/date_mock.dart';
+
 class MockSpaceMediaRepository extends Mock implements ISpaceMediaRepository {}
 
 void main() {
@@ -17,7 +19,7 @@ void main() {
     useCase = GetSpaceFromDateUseCase(repository);
   });
 
-  final DateTime dateTime = DateTime(2023, 06, 07);
+
 
   test(
     'Should get space media entity for a given date from the repository',

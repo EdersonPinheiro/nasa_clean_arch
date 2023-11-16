@@ -39,6 +39,8 @@ dependencies:
   flutter_modular:
   http:
   dartz:
+  flutter_triple:
+  shimmer:
 
 dev_dependencies:
   flutter_test:
