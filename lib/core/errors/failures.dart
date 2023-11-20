@@ -7,3 +7,9 @@ class ServerFailure extends Failure {
   // TODO: implement props
   List<Object?> get props => [];
 }
+
+class NullParamsFailure extends Failure {
+  @override
+  // TODO: implement props
+  List<Object?> get props => [];
+}

@@ -1,3 +1,4 @@
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_triple/flutter_triple.dart';
 import 'package:nasa_clean_arch/feature/domain/usecase/get_space_media_from_data_usecase.dart';
 import '../../../core/errors/failures.dart';
